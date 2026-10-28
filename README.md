@@ -48,7 +48,13 @@ into any cell.
 notebook: 4 conditions over 60 labeled messages, plus a stability check that
 repeats a subset. Those outputs are saved in the committed notebook and in
 `data/processed/assistant_results.csv`, which lets a reader follow the argument
-without re-running them.
+without re-running them. Model answers can move between runs even at temperature
+0. The stability check in section 3 measures how much, and a fresh run can give
+slightly different accuracy figures.
+
+The committed notebook was executed cell by cell during development, which
+leaves its execution counts out of sequence. Every code cell has been run and
+every output is shown.
 
 **Reproducing from source.** The 3 raw files total about 500 MB and are not
 committed. Download them from
@@ -74,9 +80,13 @@ Parks adds 4 seasonal crews in June, 3 in July and 1 in August, which need no
 hiring lead time and no release cost.
 
 Every hire falls in February through May. January cannot change, because hiring
-takes a month and the January counts are given. No crew is released all year:
-demand never falls far enough for a quarter of an annual salary to be worth
-paying.
+takes a month and the January counts are given.
+
+No crew is released all year, and that follows from how the smoothed policy
+works instead of from a separate release decision. The policy moves from the
+January counts toward a level sized for a high-demand month, the 75th
+percentile, and all 4 departments start below that level. The plan only ever
+hires.
 
 *Scope: a plan built on a forecast, priced under the stated cost rules. The
 starting crew counts are the planning assumption given with the problem, not
@@ -113,8 +123,10 @@ the ungrounded baseline matches the best of them at 97.5%, because an obvious
 pothole needs no list to route.
 
 The re-route raises taxonomy compliance from 93.3% to 98.3% and leaves 1 message
-unmatched against 4 for retrieval alone. Returning nothing is the correct answer
-for a message describing something the city has no type for.
+unmatched against 4 for retrieval alone. An unmatched message goes to a human
+operator instead of to a guessed queue. It is still counted as wrong in the
+accuracy table whenever the message has a labelled department, and the 1 left
+unmatched here is one of those.
 
 ### Pricing the routing error through the crew plan
 
@@ -196,10 +208,21 @@ No technique is present without a measured result attached to it.
 
 ## Error handling
 
-Model calls retry transient API failures and rate limits with backoff, with a
-timeout that prevents a hung call from blocking the run. A call that fails after
-its retries returns an unrouted result and the run continues. An empty message
-is rejected before any model call, which the demo cell prints.
+Every model call retries transient API failures and rate limits with backoff
+(`max_retries=3`), under a 30-second timeout that prevents a hung call from
+blocking the run.
+
+The classifiers the assistant itself uses, `classify_baseline`, `classify_rag`,
+`classify_graph` and `route_and_check`, go further. A call that still fails
+after its retries returns an unrouted result and the run continues, because a
+resident's message should not stop the service. An empty message is rejected
+before any model call, which the demo cell prints.
+
+In the batch evaluation cells the baseline and whole-taxonomy conditions call
+their chains directly, without that fallback. A failure that outlasts the
+retries there stops the cell. For a measurement that is the behaviour wanted: a
+silent fallback would be scored as a wrong answer and would quietly corrupt the
+accuracy table.
 
 ---
 
@@ -217,7 +240,8 @@ quarter of annual salary, and the scenario helpers.
 
 Not covered, deliberately: the overdue formula and the oldest-first backlog
 ageing. A test of either would restate the implementation and pass whatever the
-implementation did.
+implementation did. Limitations 7 and 8 record what a hand-worked overload trace
+through that code shows.
 
 ---
 
@@ -238,6 +262,21 @@ implementation did.
 6. The 60 test messages were written by hand for this project. They were
    written to be realistic; the 311 data has no free-text resident descriptions
    to sample from.
+7. Under sustained overload the overdue count is understated. Each month, the
+   work that would clear inside the target window is exempted from the 20 USD
+   charge. When older backlog is ahead of it that work does not clear in time,
+   and it is never charged later as it ages. This applies only once a backlog
+   lasts longer than a month. The base plan is unaffected. The storm spike, the
+   110% and 120% sensitivity rows and the boundary-tier misrouting row
+   understate their overdue cost.
+8. Backlog ages in whole months, and a new month's leftover work is given an age
+   of 1. The 100 USD charge then falls when a request is still open at the end
+   of the month after it came in, which is 30 to 60 days of waiting. For a
+   request that came in late in a month this can be earlier than 30 days past
+   its target.
+9. Work with long targets shares the oldest-first queue with urgent work. 54% of
+   Parks volume has a target longer than 30 days, mostly 365, and clearing that
+   work can push the seasonal Parks crew counts up.
 
 ---
 
@@ -248,7 +287,7 @@ NCUBE_Hackathon_Boston311.ipynb   the submission
 staffing.py                       the crew model, no model calls
 build_test_messages.py            builds the labeled test set
 tests/test_staffing.py            27 tests
-data/test_messages.csv            60 labeled messages, 3 difficulty tiers
+data/test_messages.csv            60 labeled messages, 2 difficulty tiers
 data/processed/                   10 tables, committed
 routing_graph.png                 the LangGraph structure
 crew_plan_2025.png                crews by department across 2025
