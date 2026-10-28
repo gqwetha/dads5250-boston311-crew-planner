@@ -29,13 +29,6 @@ pip install -r requirements.txt
 jupyter notebook NCUBE_Hackathon_Boston311.ipynb
 ```
 
-On Windows, from the Anaconda Prompt:
-
-```
-cd %USERPROFILE%\Documents\boston311
-jupyter notebook
-```
-
 Built and verified on Python 3.11.14, Windows, Anaconda. Versions are pinned in
 `requirements.txt`.
 
@@ -51,11 +44,11 @@ A model key is needed only for the intake assistant sections. Set
 `OPENAI_API_KEY` in the environment before launching Jupyter. No key is written
 into any cell.
 
-**Cost of a full run.** Restart and Run All makes roughly 960 model calls,
-because the assistant is scored under 4 conditions over 60 labeled messages and
-a stability check repeats a subset. Those outputs are saved in the committed
-notebook and in `data/processed/assistant_results.csv`, which lets a reader
-follow the argument without paying for it.
+**Cost of a full run.** Restart and Run All re-runs every model call in the
+notebook: 4 conditions over 60 labeled messages, plus a stability check that
+repeats a subset. Those outputs are saved in the committed notebook and in
+`data/processed/assistant_results.csv`, which lets a reader follow the argument
+without re-running them.
 
 **Reproducing from source.** The 3 raw files total about 500 MB and are not
 committed. Download them from

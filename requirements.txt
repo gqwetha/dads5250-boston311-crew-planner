@@ -8,6 +8,9 @@
 # OPENAI_API_KEY in the environment before launching Jupyter. The crew model
 # and its tests need no key and no network.
 
+# course helper module, also auto-installed by the notebook's first cell
+dads5250==0.3.0
+
 # course stack
 langchain==1.4.6
 langchain-core==1.6.12
