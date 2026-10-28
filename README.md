@@ -103,9 +103,8 @@ accept one. Department accuracy on its own hides that completely.
 
 The fourth condition is the control, and it wins. Every type is in front of the
 model from the start, it names a usable type on all 60 messages, and it scores
-highest on both tiers. That is a result about the size of this taxonomy rather
-than about retrieval: 150 types come to 3,924 characters, which fits in a
-prompt. Retrieval is built for lists that do not fit. At this scale the whole
+highest on both tiers. That is a result about the size of this taxonomy: 150
+types come to 3,924 characters, which fits in a prompt. Retrieval is built for lists that do not fit. At this scale the whole
 list is the better choice, and running the control is what showed it.
 
 Grounding is what the first row lacks. On the boundary tier the 3 grounded
