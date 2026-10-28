@@ -23,8 +23,8 @@ tests `HAS_RAW` first and reads the processed tables under `data/processed/`
 instead, all 10 of which are committed here.
 
 ```
-git clone https://github.com/<user>/<repo>.git
-cd <repo>
+git clone https://github.com/gqwetha/dads5250-boston311-crew-planner.git
+cd dads5250-boston311-crew-planner
 pip install -r requirements.txt
 jupyter notebook NCUBE_Hackathon_Boston311.ipynb
 ```
