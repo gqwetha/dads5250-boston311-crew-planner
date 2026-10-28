@@ -1,0 +1,18 @@
+# Raw 311 data, roughly 500 MB across 3 files.
+# Download from the source linked in the README into data/raw/.
+# The processed tables under data/processed/ ARE committed, which is what
+# lets the notebook run without these.
+data/raw/
+
+# secrets
+.env
+
+# python and jupyter working files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+anaconda_projects/
+
+# operating system
+Thumbs.db
+.DS_Store

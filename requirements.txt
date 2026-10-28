@@ -1,0 +1,33 @@
+# Boston 311 crew planning and intake assistant
+#
+# Built and verified on Python 3.11.14, Windows, Anaconda.
+#
+#   pip install -r requirements.txt
+#
+# A model key is needed only for the intake assistant sections. Set
+# OPENAI_API_KEY in the environment before launching Jupyter. The crew model
+# and its tests need no key and no network.
+
+# course stack
+langchain==1.4.6
+langchain-core==1.6.12
+langchain-openai==1.7.2
+langchain-community==0.4.2
+langchain-chroma==1.1.0
+langgraph==1.2.16
+openai==3.29.0
+
+# vector store behind the type retrieval
+chromadb==1.5.9
+
+# schema validation for structured output
+pydantic==2.14.1
+
+# analysis and charts
+pandas==3.0.1
+numpy==1.26.4
+matplotlib==3.10.8
+
+# notebook
+notebook==7.5.4
+ipykernel==7.2.0

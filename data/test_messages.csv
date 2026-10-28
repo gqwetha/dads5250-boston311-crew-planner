@@ -1,0 +1,61 @@
+msg_id,message,true_dept,tier,label_reason
+m001,There is a pothole on Dorchester Ave right before the light that keeps getting bigger. Cars are swerving into the other lane to miss it.,PWDx,clear,Street surface repair is Public Works.
+m002,My trash was not picked up this morning. The whole even side of the street got collected and ours was skipped.,PWDx,clear,Household trash collection is Public Works.
+m003,Recycling has not been taken for two weeks now. The blue bins are full and people are stacking cardboard next to them.,PWDx,clear,Recycling collection is Public Works.
+m004,The street lights on our block have been out since Friday. It is completely dark from the corner down to the end of the street.,PWDx,clear,Street light outage is Public Works.
+m005,One of the sidewalk slabs outside my building has lifted about three inches. My neighbor tripped on it last week carrying groceries.,PWDx,clear,Sidewalk repair is Public Works.
+m006,Someone tagged the utility box and the mailbox on the corner with spray paint over the weekend.,PARK,clear,"Graffiti Removal is Parks and Recreation in the data, holding 100% of that type's volume."
+m007,The storm drain at the bottom of my street is blocked with leaves and the water pools up past the curb every time it rains.,PWDx,clear,Catch basin cleaning is Public Works.
+m008,The ramp at the crosswalk never got cleared after the storm. There is a pile of snow sitting right where the curb cut is.,PWDx,clear,Snow and ice clearing on public ways is Public Works.
+m009,There is a dead raccoon in the middle of the road near the school crossing and it has been there since yesterday.,PWDx,clear,Dead animal pickup is Public Works.
+m010,"The sign says street sweeping is Tuesday and everyone moves their cars, but the sweeper has not come through in a month.",PWDx,clear,Street cleaning is Public Works.
+m011,Someone dumped a mattress and six bags of household junk on the public sidewalk next to the bus shelter.,PWDx,boundary,Dumping on a public way is Public Works. Reads like Inspectional Services because of the word dumping.
+m012,The street light pole on the corner is leaning badly toward the road. It looks like a car clipped it.,PWDx,boundary,"The pole and the light are Public Works infrastructure, not a traffic device."
+m013,"There is a whole section of sidewalk missing in front of the empty lot on my street, just dirt and gravel where the concrete used to be.",PWDx,boundary,Sidewalk reconstruction is Public Works even where the abutting lot is private.
+m014,The city trash barrel at the bus stop is overflowing and there is garbage blowing into the street.,PWDx,boundary,Public litter barrel is Public Works. Reads like Transportation because of the bus stop.
+m015,"The long retaining wall along the sidewalk is covered in tags. It is the wall on the street side, not inside the park.",PARK,boundary,Graffiti Removal is Parks and Recreation in the data whether or not the wall faces a street.
+m016,"There is a car that has not moved in about six weeks. Two flat tires, expired plates, no sticker. It is taking up a resident spot.",BTDT,clear,Abandoned vehicle is Transportation.
+m017,"The parking meter on the corner took my card, charged me, and then showed zero minutes. It did the same thing to the person behind me.",BTDT,clear,Parking meter repair is Transportation.
+m018,The traffic signal at the intersection is stuck on red in all directions. Drivers are just creeping through when they think it is clear.,BTDT,clear,Traffic signal repair is Transportation.
+m019,The stop sign at the end of my street got knocked down and is lying in the grass. Cars are rolling straight through now.,BTDT,clear,Street sign repair and replacement is Transportation.
+m020,Delivery vans park in the bike lane every single morning between eight and ten and force riders out into traffic.,BTDT,clear,Parking enforcement in a bike lane is Transportation.
+m021,The crosswalk paint by the elementary school has worn down to almost nothing. You cannot see the stripes at all in the rain.,BTDT,clear,Pavement markings are Transportation.
+m022,A box truck double parks in the travel lane outside the restaurant every evening and blocks the whole street.,BTDT,clear,Double parking enforcement is Transportation.
+m023,I renewed my resident parking sticker online five weeks ago and it still has not come in the mail. I am getting tickets.,BTDT,clear,Resident parking permits are Transportation.
+m024,The speed limit sign that used to be at the top of the hill never went back up after the construction finished.,BTDT,clear,Missing regulatory signage is Transportation.
+m025,"The walk button at the crossing does nothing. You press it and the signal never gives a walk phase, so people cross against traffic.",BTDT,clear,Pedestrian signal repair is Transportation.
+m026,There is a car parked right across the fire hydrant on my street and it has been there all day.,BTDT,boundary,Hydrant parking enforcement is Transportation. Reads like public safety.
+m027,The blue paint and the wheelchair symbol in the accessible space outside the pharmacy are completely worn away.,BTDT,boundary,Accessible space markings are Transportation. Reads like Public Works because it is paint on pavement.
+m028,Someone keeps parking fully up on the sidewalk and my mother cannot get her wheelchair past. She has to go into the road.,BTDT,boundary,Sidewalk parking enforcement is Transportation even though the obstruction is on a sidewalk.
+m029,The street name sign on the pole at the corner is bent over so far it hangs into the bike lane.,BTDT,boundary,"Street signage is Transportation, not Public Works, even though the pole is street furniture."
+m030,Cars are parking on the grass strip at the edge of the lot by the field and churning it into mud.,BTDT,boundary,Parking enforcement is Transportation. Reads like Parks because of the field.
+m031,A big limb is hanging over the walking path after the storm. It is cracked at the trunk and still attached.,PARK,clear,Tree maintenance is Parks and Recreation.
+m032,One of the swing seats at the playground is broken off and the chains are just hanging there at head height.,PARK,clear,Playground equipment is Parks and Recreation.
+m033,The city tree in front of my house is dead. No leaves at all this summer and the bark is coming off in sheets.,PARK,clear,Street tree removal is Parks and Recreation.
+m034,The drinking fountain in the park has not worked all season. The handle turns but nothing comes out.,PARK,clear,Park amenity repair is Parks and Recreation.
+m035,The infield at the baseball field floods after every rain and stays soaked for days. Two games got called off.,PARK,clear,Athletic field maintenance is Parks and Recreation.
+m036,The park bathroom is locked during the hours posted on the door. It has been locked every weekend this month.,PARK,clear,Park facility operation is Parks and Recreation.
+m037,"The climbing structure in the tot lot is covered in spray paint, including the slide the little kids use.",PARK,clear,Graffiti inside a park is Parks and Recreation.
+m038,The rim on the basketball court is bent down at an angle and the net is gone.,PARK,clear,Court equipment is Parks and Recreation.
+m039,The brush at the park entrance has grown so far over the sign that you cannot read it from the sidewalk.,PARK,clear,Grounds maintenance is Parks and Recreation.
+m040,Two of the benches along the path have rotted slats and one has a board missing completely.,PARK,clear,Park furniture repair is Parks and Recreation.
+m041,The city tree outside my house needs pruning. The top branches are growing right into the wires.,PARK,boundary,Tree pruning is Parks and Recreation even where utility wires are involved.
+m042,The light over the park walking path has been out for weeks. People cut through there after dark.,PARK,boundary,"A light inside a park is Parks and Recreation, not a street light."
+m043,There are rats running around the park near the barrels every evening. My kids have seen them twice this week.,ISD,boundary,"Rodent Activity is Inspectional Services in the data, holding 95% of that type's volume, park land included."
+m044,There is broken glass all through the sand at the tot lot. It looks like someone smashed bottles in there overnight.,PARK,boundary,"Park grounds cleaning is Parks and Recreation, not street cleaning."
+m045,The fence around the community garden got knocked down on one side and the gate is hanging off.,PARK,boundary,Fencing on park land is Parks and Recreation. Reads like a private property matter.
+m046,We have had no heat for four days. It is in the forties at night and the landlord is not returning calls.,ISD,clear,Heat violations are Inspectional Services.
+m047,No hot water anywhere in the building for over a week. Five units are affected and nobody has come to look at it.,ISD,clear,Hot water violations are Inspectional Services.
+m048,There are mice in the kitchen walls. I can hear them at night and there are droppings under the sink. The landlord says it is my problem.,ISD,clear,Rodent and pest violations in housing are Inspectional Services.
+m049,Water has been coming through my ceiling from the unit above for a month and there is black mold spreading across the corner now.,ISD,clear,Habitability and sanitary code violations are Inspectional Services.
+m050,The basement unit next door has no windows and I count at least six people living in it. There are mattresses in what looks like a storage room.,ISD,clear,Illegal occupancy is Inspectional Services.
+m051,The crew next door starts demolition at six in the morning and I have never seen a permit posted anywhere on the building.,ISD,clear,Work without a permit is Inspectional Services.
+m052,The restaurant behind my building keeps trays of food out in the alley on crates for hours before service.,ISD,clear,Food establishment sanitation is Inspectional Services.
+m053,"Cockroaches are through the whole building, in the hallways and in the units. Management sprayed once in June and never came back.",ISD,clear,Pest infestation in housing is Inspectional Services.
+m054,The landlord took the smoke detectors out of the hallway during the renovation three weeks ago and never put them back.,ISD,clear,Life safety code violations are Inspectional Services.
+m055,The vacant house on the corner has broken windows and the back door is standing wide open. People are going in and out of it.,ISD,clear,Vacant and unsecured building is Inspectional Services.
+m056,The yard next door is waist high in weeds with bags of trash and a broken fridge sitting in it.,ISD,boundary,"Trash and overgrowth on private property is Inspectional Services, not Public Works collection."
+m057,Rats started showing up in my yard right after they opened up the ground at the construction site behind us.,ISD,boundary,Rodent control at a construction site is Inspectional Services.
+m058,The business on the corner leaves its private dumpster out on the street all week and it is overflowing.,ISD,boundary,Private waste storage violation is Inspectional Services. Reads like Public Works or Transportation.
+m059,"There is a car rotting in the driveway next door, up on blocks, leaking something dark onto the pavement.",BTDT,boundary,"Abandoned Vehicles is Transportation in the data, holding 100% of that type's volume, private property included."
+m060,There is a strong sewage smell in my bathroom and the downstairs unit has it too. It has been getting worse for two weeks.,ISD,boundary,"Plumbing and sanitary violation inside a building is Inspectional Services, not a city sewer issue."

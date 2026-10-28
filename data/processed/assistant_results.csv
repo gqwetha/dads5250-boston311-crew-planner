@@ -1,0 +1,61 @@
+msg_id,tier,true_dept,baseline_dept,baseline_type,rag_dept,rag_type,graph_dept,graph_type,graph_attempts,full_dept,full_type,baseline_correct,baseline_in_tax,rag_correct,rag_in_tax,graph_correct,graph_in_tax,full_correct,full_in_tax
+m001,clear,PWDx,PWDx,Pothole Repair,PWDx,Request for Pothole Repair,PWDx,Request for Pothole Repair,1,PWDx,Request for Pothole Repair,True,False,True,True,True,True,True,True
+m002,clear,PWDx,PWDx,Missed Trash Pickup,PWDx,Missed Trash/Recycling/Yard Waste/Bulk Item,PWDx,Missed Trash/Recycling/Yard Waste/Bulk Item,1,PWDx,Missed Trash/Recycling/Yard Waste/Bulk Item,True,False,True,True,True,True,True,True
+m003,clear,PWDx,PWDx,Recycling missed pickup / overflowing recycling bins,PWDx,Missed Trash/Recycling/Yard Waste/Bulk Item,PWDx,Missed Trash/Recycling/Yard Waste/Bulk Item,1,PWDx,Missed Trash/Recycling/Yard Waste/Bulk Item,True,False,True,True,True,True,True,True
+m004,clear,PWDx,PWDx,Street Light Outage,PWDx,Street Light Outages,PWDx,Street Light Outages,1,PWDx,Street Light Outages,True,False,True,True,True,True,True,True
+m005,clear,PWDx,PWDx,Sidewalk Trip Hazard,PWDx,Sidewalk Repair (Make Safe),PWDx,Sidewalk Repair (Make Safe),1,PWDx,Sidewalk Repair,True,False,True,True,True,True,True,True
+m006,clear,PARK,PWDx,Graffiti removal,PARK,Graffiti Removal,PARK,Graffiti Removal,1,PARK,Graffiti Removal,False,False,True,True,True,True,True,True
+m007,clear,PWDx,PWDx,Catch basin/storm drain blocked,PWDx,Catchbasin,PWDx,Catchbasin,1,PWDx,Catchbasin,True,False,True,True,True,True,True,True
+m008,clear,PWDx,PWDx,Snow/Ice Removal,PWDx,Unshoveled Sidewalk,PWDx,Unshoveled Sidewalk,1,PWDx,Request for Snow Plowing,True,False,True,True,True,True,True,True
+m009,clear,PWDx,PWDx,Dead animal in roadway,PWDx,Pick up Dead Animal,PWDx,Pick up Dead Animal,1,PWDx,Pick up Dead Animal,True,False,True,True,True,True,True,True
+m010,clear,PWDx,PWDx,Street sweeping not occurring,PWDx,Requests for Street Cleaning,PWDx,Requests for Street Cleaning,1,PWDx,Requests for Street Cleaning,True,False,True,True,True,True,True,True
+m011,boundary,PWDx,PWDx,Illegal dumping on public sidewalk near bus shelter,PWDx,Illegal Dumping,PWDx,Illegal Dumping,1,PWDx,Illegal Dumping,True,False,True,True,True,True,True,True
+m012,boundary,PWDx,BTDT,Street light pole leaning/damaged after vehicle impact,PWDx,Street Light Knock Downs,PWDx,Street Light Knock Downs,1,PWDx,Street Light Knock Downs,False,False,True,True,True,True,True,True
+m013,boundary,PWDx,PWDx,Sidewalk Repair,PWDx,Sidewalk Repair,PWDx,Sidewalk Repair,1,PWDx,Sidewalk Repair,True,True,True,True,True,True,True,True
+m014,boundary,PWDx,PWDx,Trash barrel overflowing at bus stop,PWDx,Empty Litter Basket,PWDx,Empty Litter Basket,1,PWDx,Overflowing or Un-kept Dumpster,True,False,True,True,True,True,True,True
+m015,boundary,PARK,PWDx,Graffiti on retaining wall along sidewalk/street side,PARK,Graffiti Removal,PARK,Graffiti Removal,1,PARK,Graffiti Removal,False,False,True,True,True,True,True,True
+m016,clear,BTDT,BTDT,Abandoned vehicle,BTDT,Abandoned Vehicles,BTDT,Abandoned Vehicles,1,BTDT,Abandoned Vehicles,True,False,True,True,True,True,True,True
+m017,clear,BTDT,BTDT,Parking meter malfunction / payment issue,BTDT,Parking Meter Repairs,BTDT,Parking Meter Repairs,1,BTDT,Parking Meter Repairs,True,False,True,True,True,True,True,True
+m018,clear,BTDT,BTDT,Traffic Signal Issue,BTDT,Traffic Signal Repair,BTDT,Traffic Signal Repair,1,BTDT,Traffic Signal Repair,True,False,True,True,True,True,True,True
+m019,clear,BTDT,BTDT,Traffic Sign - Down,BTDT,General Traffic Engineering Request,BTDT,General Traffic Engineering Request,1,BTDT,Sign Repair,True,False,True,True,True,True,True,True
+m020,clear,BTDT,BTDT,Illegal parking in bike lane,BTDT,Bicycle Issues,BTDT,Bicycle Issues,1,BTDT,Parking Enforcement,True,False,True,True,True,True,True,True
+m021,clear,BTDT,BTDT,Crosswalk marking maintenance,BTDT,New Sign  Crosswalk or Pavement Marking,BTDT,New Sign  Crosswalk or Pavement Marking,1,BTDT,Pavement Marking Maintenance,True,False,True,True,True,True,True,True
+m022,clear,BTDT,BTDT,Illegal Parking / Double Parking,BTDT,Parking Enforcement,BTDT,Parking Enforcement,1,BTDT,Parking Enforcement,True,False,True,True,True,True,True,True
+m023,clear,BTDT,BTDT,Resident parking sticker not received after renewal,BTDT,Parking Enforcement,BTDT,Parking Enforcement,1,PWDx,Sticker Request,True,False,True,True,True,True,False,True
+m024,clear,BTDT,BTDT,Sign Issues - Missing/Fallen,BTDT,Missing Sign,BTDT,Missing Sign,1,BTDT,Missing Sign,True,False,True,True,True,True,True,True
+m025,clear,BTDT,BTDT,Traffic signal / crossing signal not giving walk phase,BTDT,Traffic Signal Repair,BTDT,Traffic Signal Repair,1,BTDT,Traffic Signal Repair,True,False,True,True,True,True,True,True
+m026,boundary,BTDT,BTDT,Parking complaint - blocking fire hydrant,BTDT,Parking Enforcement,BTDT,Parking Enforcement,1,BTDT,Parking Enforcement,True,False,True,True,True,True,True,True
+m027,boundary,BTDT,PARK,Accessible parking space maintenance,PWDx,Sidewalk Repair,PWDx,Sidewalk Repair,1,BTDT,Pavement Marking Maintenance,False,False,False,True,False,True,True,True
+m028,boundary,BTDT,BTDT,Illegal parking blocking sidewalk access for wheelchair user,PWDx,Parking on Front/Back Yards (Illegal Parking),PWDx,Parking on Front/Back Yards (Illegal Parking),1,PWDx,Parking on Front/Back Yards (Illegal Parking),True,False,False,True,False,True,False,True
+m029,boundary,BTDT,BTDT,Street name sign bent into bike lane,BTDT,New Sign  Crosswalk or Pavement Marking,BTDT,Sign Repair,2,BTDT,Sign Repair,True,False,True,True,True,True,True,True
+m030,boundary,BTDT,BTDT,Illegal parking on grass strip / turf damage,PWDx,Parking on Front/Back Yards (Illegal Parking),PARK,Ground Maintenance,1,PWDx,Parking on Front/Back Yards (Illegal Parking),True,False,False,True,False,True,False,True
+m031,clear,PARK,PARK,Tree Maintenance,PARK,Tree Emergencies,PARK,Tree Emergencies,1,PARK,Tree Emergencies,True,False,True,True,True,True,True,True
+m032,clear,PARK,PARK,Broken playground swing seat / hanging chains at head height,PARK,Parks General Request,PARK,Parks General Request,1,PARK,Parks General Request,True,False,True,True,True,True,True,True
+m033,clear,PARK,PARK,Tree removal / dead street tree,PARK,Tree Maintenance Requests,PARK,Tree Maintenance Requests,1,PARK,Tree Maintenance Requests,True,False,True,True,True,True,True,True
+m034,clear,PARK,PARK,Broken drinking fountain,PARK,Parks General Request,PARK,Park Improvement Requests,1,PARK,Equipment Repair,True,False,True,True,True,True,True,True
+m035,clear,PARK,PARK,Flooding at baseball field infield after rain,,NONE,PWDx,BWSC General Request,1,PARK,Park Improvement Requests,True,False,False,False,False,True,True,True
+m036,clear,PARK,PARK,Park Bathroom Locked / Access Issue,PARK,Parks General Request,PARK,Parks General Request,1,PARK,Parks General Request,True,False,True,True,True,True,True,True
+m037,clear,PARK,PARK,Graffiti on playground equipment,PARK,Graffiti Removal,PARK,Graffiti Removal,1,PARK,Graffiti Removal,True,False,True,True,True,True,True,True
+m038,clear,PARK,PARK,Basketball court maintenance - bent rim and missing net,,NONE,,NONE,2,PARK,Park Improvement Requests,True,False,False,False,False,False,True,True
+m039,clear,PARK,PARK,Overgrown brush blocking park sign visibility,PARK,Parks General Request,PARK,Parks General Request,1,PARK,Tree Maintenance Requests,True,False,True,True,True,True,True,True
+m040,clear,PARK,PARK,Bench repair,,NONE,PARK,Park Improvement Requests,2,PARK,Park Improvement Requests,True,False,False,False,True,True,True,True
+m041,boundary,PARK,PARK,Tree pruning near wires,PARK,Tree Maintenance Requests,PARK,Tree Maintenance Requests,1,PARK,Tree Maintenance Requests,True,False,True,True,True,True,True,True
+m042,boundary,PARK,PARK,Street light out in park/path area,PARK,Parks Lighting/Electrical Issues,PARK,Parks Lighting/Electrical Issues,1,PARK,Parks Lighting/Electrical Issues,True,False,True,True,True,True,True,True
+m043,boundary,ISD,PARK,Pest Control / Rodents,ISD,Rodent Activity,ISD,Rodent Activity,1,ISD,Rodent Activity,False,False,True,True,True,True,True,True
+m044,boundary,PARK,PARK,Broken glass in tot lot sand,,NONE,PWDx,Trash on Vacant Lot,1,ISD,Unsafe Dangerous Conditions,True,False,False,False,False,True,False,True
+m045,boundary,PARK,PARK,Fence/gate repair at community garden,PARK,Parks General Request,PARK,Parks General Request,2,PARK,Park Improvement Requests,True,False,True,True,True,True,True,True
+m046,clear,ISD,ISD,No Heat,ISD,Heat - Excessive  Insufficient,ISD,Heat - Excessive  Insufficient,1,ISD,Heat - Excessive  Insufficient,True,False,True,True,True,True,True,True
+m047,clear,ISD,ISD,No Hot Water,ISD,No Utilities Residential - Water,ISD,No Utilities Residential - Water,1,ISD,No Utilities Residential - Water,True,False,True,True,True,True,True,True
+m048,clear,ISD,ISD,Rodent / mice complaint in residential property,ISD,Mice Infestation - Residential,ISD,Mice Infestation - Residential,1,ISD,Mice Infestation - Residential,True,False,True,True,True,True,True,True
+m049,clear,ISD,ISD,Water leak / mold complaint in residential unit,ISD,Chronic Dampness/Mold,ISD,Chronic Dampness/Mold,1,ISD,Chronic Dampness/Mold,True,False,True,True,True,True,True,True
+m050,clear,ISD,ISD,Illegal basement occupancy / possible illegal apartment,ISD,Illegal Occupancy,ISD,Illegal Occupancy,1,ISD,Illegal Occupancy,True,False,True,True,True,True,True,True
+m051,clear,ISD,ISD,Construction/demolition without posted permit,PWDx,Work Hours-Loud Noise Complaints,PWDx,Work Hours-Loud Noise Complaints,1,ISD,Work w/out Permit,True,False,False,True,False,True,True,True
+m052,clear,ISD,ISD,Food storage in alley,ISD,Unsanitary Conditions - Food,ISD,Unsanitary Conditions - Food,1,ISD,Unsanitary Conditions - Food,True,False,True,True,True,True,True,True
+m053,clear,ISD,ISD,Pest Control - Cockroaches,ISD,Pest Infestation - Residential,ISD,Pest Infestation - Residential,1,ISD,Pest Infestation - Residential,True,False,True,True,True,True,True,True
+m054,clear,ISD,ISD,Missing smoke detector(s) in hallway,ISD,Maintenance Complaint - Residential,ISD,Maintenance Complaint - Residential,1,ISD,Electrical,True,False,True,True,True,True,True,True
+m055,clear,ISD,ISD,Vacant/Abandoned Property Issue,ISD,Abandoned Building,ISD,Abandoned Building,1,ISD,Abandoned Building,True,False,True,True,True,True,True,True
+m056,boundary,ISD,PWDx,Overgrown Weeds / Trash / Illegal Dumping,PWDx,Trash on Vacant Lot,PWDx,Trash on Vacant Lot,1,PWDx,Trash on Vacant Lot,False,False,False,True,False,True,False,True
+m057,boundary,ISD,PWDx,Pests - Rodents,ISD,Rodent Activity,ISD,Rodent Activity,1,ISD,Rodent Activity,False,False,True,True,True,True,True,True
+m058,boundary,ISD,PWDx,Overflowing private dumpster left on street,PWDx,Overflowing or Un-kept Dumpster,PWDx,Overflowing or Un-kept Dumpster,1,PWDx,Overflowing or Un-kept Dumpster,False,False,False,True,False,True,False,True
+m059,boundary,BTDT,ISD,Abandoned vehicle in private driveway with fluid leak,BTDT,Abandoned Vehicles,BTDT,Abandoned Vehicles,1,BTDT,Abandoned Vehicles,False,False,True,True,True,True,True,True
+m060,boundary,ISD,PWDx,Sewer / Drain Odor,ISD,Sewage/Septic Back-Up,ISD,Sewage/Septic Back-Up,1,ISD,Sewage/Septic Back-Up,False,False,True,True,True,True,True,True

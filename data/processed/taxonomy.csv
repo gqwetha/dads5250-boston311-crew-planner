@@ -1,0 +1,151 @@
+type,department,volume,type_total,share,queue
+Abandoned Bicycle,BTDT,1296,1313,0.9870525514089871,BTDT_Abandoned Bicycle
+Abandoned Building,ISD,62,66,0.9393939393939394,ISD_Building (INTERNAL)
+Abandoned Vehicles,BTDT,4050,4068,0.995575221238938,BTDT_AVRS Interface Queue
+Animal Generic Request,PWDx,6,10,0.6,PWDx_District 1C: Downtown
+BWSC General Request,PWDx,6,10,0.6,PWDx_Roadway Repair_Ponding
+BWSC Pothole,PWDx,1,1,1.0,PWDx_Contractor Complaints
+Bed Bugs,ISD,213,213,1.0,ISD_Housing (INTERNAL)
+Bicycle Issues,BTDT,58,58,1.0,BTDT_BostonBikes
+Bridge Maintenance,PWDx,16,16,1.0,PWDx_Bridge Maintenance
+Building Inspection Request,ISD,842,848,0.9929245283018868,ISD_Building (INTERNAL)
+Carbon Monoxide,ISD,14,14,1.0,ISD_Housing (INTERNAL)
+Catchbasin,PWDx,8,12,0.6666666666666666,PWDx_Roadway Repair_ARP_Resurfacing
+Cemetery Maintenance Request,PARK,28,28,1.0,PARK_Cemetery Maintenance Request
+Chronic Dampness/Mold,ISD,575,575,1.0,ISD_Housing (INTERNAL)
+Construction Debris,PWDx,134,138,0.9710144927536232,PWDx_Code Enforcement
+Contractor Complaints,PWDx,1098,1168,0.940068493150685,PWDx_Contractor Complaints
+Contractors Complaint,ISD,584,628,0.9299363057324841,ISD_Building (INTERNAL)
+Cross Metering - Sub-Metering,ISD,222,222,1.0,ISD_Housing (INTERNAL)
+Egress,ISD,88,90,0.9777777777777777,ISD_Building (INTERNAL)
+Electrical,ISD,1029,1029,1.0,ISD_Electrical
+Empty Litter Basket,PWDx,2829,3198,0.8846153846153846,PWDx_District 1C: Downtown
+Equipment Repair,PARK,2505,2605,0.9616122840690979,PARK_Plumbing
+Exceeding Terms of Permit,ISD,94,100,0.94,ISD_Building (INTERNAL)
+Fire in Food Establishment,ISD,66,66,1.0,ISD_Health (INTERNAL)
+Follow-Up,ISD,1,1,1.0,ISD_Administrative
+Food Alert - Confirmed,ISD,16,16,1.0,ISD_Health (INTERNAL)
+Food Alert - Unconfirmed,ISD,18,18,1.0,ISD_Health (INTERNAL)
+General Comments For An Employee,PWDx,203,297,0.6835016835016835,PWDx_Missed Trash\Recycling\Yard Waste\Bulk Item
+General Comments For a Program or Policy,PWDx,694,1329,0.5221971407072987,PWDx_Missed Trash\Recycling\Yard Waste\Bulk Item
+General Lighting Request,PWDx,193,199,0.9698492462311558,PWDx_Street Light_General Lighting Request
+General Traffic Engineering Request,BTDT,185,193,0.9585492227979274,BTDT_Engineering_New Sign and Pavement Marking Requests
+Graffiti Removal,PARK,6,6,1.0,PARK_Graffiti
+Ground Maintenance,PARK,3616,3740,0.9668449197860962,PARK_Maintenance_Region 1
+Heat - Excessive  Insufficient,ISD,1664,1664,1.0,ISD_Housing (INTERNAL)
+Illegal Auto Body Shop,ISD,53,86,0.6162790697674418,ISD_Environmental Services (INTERNAL)
+Illegal Dumping,PWDx,2370,2380,0.9957983193277311,PWDx_Code Enforcement
+Illegal Occupancy,ISD,86,86,1.0,ISD_Building (INTERNAL)
+Illegal Posting of Signs,PWDx,77,87,0.8850574712643678,PWDx_Code Enforcement
+Illegal Rooming House,ISD,53,53,1.0,ISD_Building (INTERNAL)
+Illegal Vending,PWDx,99,101,0.9801980198019802,PWDx_Code Enforcement
+Improper Storage of Trash (Barrels),PWDx,18049,18158,0.9939971362484855,PWDx_Code Enforcement
+Install New Lighting,PWDx,36,37,0.972972972972973,PWDx_Street Light_Install New Lighting
+Item Price Missing,ISD,17,17,1.0,ISD_Weights and Measures (INTERNAL)
+Lead,ISD,27,27,1.0,ISD_Housing (INTERNAL)
+Litter Basket Maintenance,PWDx,78,78,1.0,PWDx_Litter Basket Maintenance
+Maintenance - Homeowner,ISD,58,58,1.0,ISD_Building (INTERNAL)
+Maintenance Complaint - Residential,ISD,1022,1038,0.9845857418111753,ISD_Housing (INTERNAL)
+Major System Failure,PWDx,135,135,1.0,PWDx_Major System Failure
+Mattress_Pickup,PWDx,35722,35722,1.0,PWDx_WM_Mattress_Pickup
+Mechanical,ISD,12,12,1.0,ISD_Building (INTERNAL)
+Mice Infestation - Residential,ISD,770,771,0.9987029831387808,ISD_Housing (INTERNAL)
+Misc. Snow Complaint,PWDx,4,4,1.0,PWDx_Snow Cases
+Missed Trash/Recycling/Yard Waste/Bulk Item,PWDx,13424,13431,0.9994788176606358,PWDx_Missed Trash\Recycling\Yard Waste\Bulk Item
+Missing Sign,BTDT,236,237,0.9957805907172996,BTDT_Sign Shop_Sign Installation
+Mosquitoes (West Nile),ISD,6,6,1.0,ISD_Environmental Services (INTERNAL)
+Municipal Parking Lot Complaints,BTDT,10,10,1.0,BTDT_Parking Lot_Municipal Parking Lot Complaints
+Needle Pickup,PWDx,5,6,0.8333333333333334,PWDx_Code Enforcement
+New Sign  Crosswalk or Pavement Marking,BTDT,1339,1353,0.9896526237989652,BTDT_Engineering_New Sign and Pavement Marking Requests
+New Tree Requests,PARK,1811,1819,0.9956019791094007,PARK_New Tree Requests
+News Boxes,PWDx,1,1,1.0,PWDx_News Boxes
+No Price on Gas/Wrong Price,ISD,5,5,1.0,ISD_Weights and Measures (INTERNAL)
+No Utilities - Food Establishment - Electricity,ISD,5,5,1.0,ISD_Health (INTERNAL)
+No Utilities - Food Establishment - Flood,ISD,10,10,1.0,ISD_Health (INTERNAL)
+No Utilities - Food Establishment - Sewer,ISD,2,2,1.0,ISD_Health (INTERNAL)
+No Utilities - Food Establishment - Water,ISD,23,23,1.0,ISD_Health (INTERNAL)
+No Utilities Residential - Electricity,ISD,133,133,1.0,ISD_Housing (INTERNAL)
+No Utilities Residential - Gas,ISD,28,28,1.0,ISD_Housing (INTERNAL)
+No Utilities Residential - Water,ISD,221,221,1.0,ISD_Housing (INTERNAL)
+No-Tow Complaint Confirmation,PWDx,97,134,0.7238805970149254,PWDx_District 09: East Boston
+Notification,ISD,145,145,1.0,ISD_Housing (INTERNAL)
+Occupying W/Out A Valid CO/CI,ISD,2,2,1.0,ISD_Building (INTERNAL)
+Oil Truck - No Receipt,ISD,1,1,1.0,ISD_Weights and Measures (INTERNAL)
+Overcrowding,ISD,49,49,1.0,ISD_Housing (INTERNAL)
+Overflowing or Un-kept Dumpster,PWDx,55,70,0.7857142857142857,PWDx_Code Enforcement
+PWD Graffiti,PWDx,826,1038,0.7957610789980732,PWDx_District 1C: Downtown
+Park Improvement Requests,PARK,79,80,0.9875,PARK_Park Improvement Requests
+Parking Enforcement,BTDT,43195,43285,0.99792075776828,BTDT_Parking Enforcement
+Parking Meter Repairs,BTDT,36,36,1.0,BTDT_Broken Meter Complaints
+Parking on Front/Back Yards (Illegal Parking),PWDx,60,81,0.7407407407407407,PWDx_Code Enforcement
+Parks General Request,PARK,142,152,0.9342105263157895,PARK_Tree Maintenance Request
+Parks Lighting/Electrical Issues,PARK,255,485,0.5257731958762887,PARK_Maintenance_Lighting Electrical
+Pavement Marking Inspection,BTDT,143,146,0.9794520547945206,BTDT_Sign Shop_Sign Installation
+Pavement Marking Maintenance,BTDT,18,18,1.0,BTDT_Pavement Marking_Maintenance
+Pest Infestation - Residential,ISD,1962,2085,0.9410071942446043,ISD_Environmental Services (INTERNAL)
+Phone Bank Service Inquiry,BTDT,13,13,1.0,BTDT_OPC_Phone Bank Service
+Pick up Dead Animal,PWDx,6615,7001,0.9448650192829596,PWDx_District 04: Allston/Brighton
+Pigeon Infestation,ISD,9,12,0.75,ISD_Environmental Services (INTERNAL)
+Planting,PARK,17,17,1.0,PARK_Maintenance_Horticulture
+Plumbing,ISD,103,103,1.0,ISD_Plumbing
+Pole Compliance,PWDx,7,7,1.0,PWDx_STRL Pole Compliance
+Poor Conditions of Property,PWDx,6907,6960,0.9923850574712644,PWDx_Code Enforcement
+Poor Ventilation,ISD,61,61,1.0,ISD_Housing (INTERNAL)
+Private Parking Lot Complaints,BTDT,9,9,1.0,BTDT_Parking Lot_PrivateParkingLotComplaints
+Product Short Measure,ISD,7,7,1.0,ISD_Weights and Measures (INTERNAL)
+Protection of Adjoining Property,ISD,315,325,0.9692307692307692,ISD_Building (INTERNAL)
+Public Works General Request,PWDx,841,878,0.9578587699316629,PWDx_Missed Trash\Recycling\Yard Waste\Bulk Item
+Rat Bite,ISD,19,19,1.0,ISD_Environmental Services (INTERNAL)
+Recycling Cart Return,PWDx,1960,1960,1.0,PWDx_Recycling Sent to Contractor
+Rental Unit Delivery Conditions,ISD,25,25,1.0,ISD_Housing (INTERNAL)
+Request for Litter Basket Installation,PWDx,127,134,0.9477611940298507,PWDx_Request for Litter Basket Installation
+Request for Pothole Repair,PWDx,8137,8218,0.9901435872475055,PWDx_Roadway Repair_ARP_Resurfacing
+Request for Recycling Cart,PWDx,8153,8153,1.0,PWDx_Recycling Sent to Contractor
+Request for Snow Plowing,PWDx,18,18,1.0,PWDx_District 06: West Roxbury and Roslindale
+Requests for Directional or Roadway Changes,BTDT,7,7,1.0,BTDT_Engineering_Request for Traffic Signal Study or Review
+Requests for Street Cleaning,PWDx,19976,20508,0.974058903842403,PWDx_District 1C: Downtown
+Requests for Traffic Signal Studies or Reviews,BTDT,493,494,0.9979757085020243,BTDT_Engineering_Request for Traffic Signal Study or Review
+Roadway Repair,PWDx,460,464,0.9913793103448276,PWDx_Roadway Repair
+Rodent Activity,ISD,4671,4924,0.9486190089358245,ISD_Environmental Services (INTERNAL)
+Rooftop & Mechanical Disturbances,ISD,1,1,1.0,ISD_Building (INTERNAL)
+Scale Not Visible,ISD,3,3,1.0,ISD_Weights and Measures (INTERNAL)
+Scanning Overcharge,ISD,14,14,1.0,ISD_Weights and Measures (INTERNAL)
+Schedule a Bulk Item Pickup,PWDx,17686,17686,1.0,PWDx_Schedule a Bulk Item Pickup
+Schedule a Bulk Item Pickup SS,PWDx,12750,12750,1.0,PWDx_Schedule a Bulk Item Pickup
+Sewage/Septic Back-Up,ISD,84,84,1.0,ISD_Housing (INTERNAL)
+Short Measure - Gas,ISD,3,3,1.0,ISD_Weights and Measures (INTERNAL)
+Short Term Rental,ISD,162,165,0.9818181818181818,ISD_Housing_ShortTermRental
+Sidewalk Cover / Manhole,PWDx,5,10,0.5,PWDx_Street Light_General Lighting Request
+Sidewalk Repair,PWDx,16,16,1.0,PWDx_Sidewalk Repair
+Sidewalk Repair (Make Safe),PWDx,6345,6726,0.9433541480820696,PWDx_Sidewalk Repair
+Sign Repair,BTDT,5199,5329,0.9756051792081066,BTDT_Sign Shop_Sign Installation
+Space Savers,PWDx,6,6,1.0,PWDx_District 1B: North End
+Squalid Living Conditions,ISD,138,142,0.971830985915493,ISD_Housing (INTERNAL)
+Sticker Request,PWDx,4174,4174,1.0,PWDx_Sticker Request
+Street Light Knock Downs,PWDx,404,432,0.9351851851851852,PWDx_Street Light Knock Downs
+Street Light Outages,PWDx,3532,3662,0.9645002730748226,PWDx_Street Light Outages
+Student Move-in Issues,PWDx,92,102,0.9019607843137255,PWDx_Code Enforcement
+Student Overcrowding,ISD,5,5,1.0,ISD_Housing (INTERNAL)
+Traffic Signal Inspection,BTDT,3499,3522,0.9934696195343555,BTDT_Traffic Signal_Repair
+Traffic Signal Repair,BTDT,89,108,0.8240740740740741,BTDT_Traffic Signal_Graffiti
+Transportation General Request,BTDT,660,666,0.990990990990991,BTDT_Administration
+Trash on Vacant Lot,PWDx,53,64,0.828125,PWDx_Code Enforcement
+Tree Emergencies,PARK,835,836,0.9988038277511961,PARK_Tree Emergencies
+Tree Maintenance Requests,PARK,5247,5556,0.9443844492440605,PARK_Tree Maintenance Request
+Tree in Park,PARK,74,74,1.0,PARK_Tree in Park
+Unit Pricing Wrong/Missing,ISD,8,8,1.0,ISD_Weights and Measures (INTERNAL)
+Unsafe Dangerous Conditions,ISD,246,256,0.9609375,ISD_Building (INTERNAL)
+Unsanitary Conditions - Employees,ISD,16,16,1.0,ISD_Health (INTERNAL)
+Unsanitary Conditions - Establishment,ISD,125,125,1.0,ISD_Health (INTERNAL)
+Unsanitary Conditions - Food,ISD,108,111,0.972972972972973,ISD_Health (INTERNAL)
+Unsatisfactory Living Conditions,ISD,5137,5165,0.9945788964181994,ISD_Housing (INTERNAL)
+Unsatisfactory Utilities - Electrical  Plumbing,ISD,464,464,1.0,ISD_Housing (INTERNAL)
+Unshoveled Sidewalk,PWDx,1527,1567,0.9744735162731334,PWDx_Code Enforcement
+Upgrade Existing Lighting,PWDx,34,34,1.0,PWDx_Street Light_Upgrade Existing Lighting
+Valet Parking Problems,BTDT,3,3,1.0,BTDT_Parking Lot_Valet Parking Problems
+Walk-In Service Inquiry,BTDT,4,4,1.0,BTDT_OPC_Walk-In Service
+Water in Gas - High Priority,ISD,1,1,1.0,ISD_Weights and Measures (INTERNAL)
+Work Hours-Loud Noise Complaints,PWDx,182,195,0.9333333333333333,PWDx_Work Hours-Loud Noise Complaints
+Work w/out Permit,ISD,265,266,0.9962406015037594,ISD_Building (INTERNAL)
+Working Beyond Hours,ISD,319,324,0.9845679012345679,ISD_Building (INTERNAL)
+Zoning,ISD,34,36,0.9444444444444444,ISD_Building (INTERNAL)
