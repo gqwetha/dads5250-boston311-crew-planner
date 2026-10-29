@@ -2,6 +2,8 @@
 
 DADS 5250, Generative AI in Practice. Module 7 Hackathon. Gqwetha Ncube.
 
+**Demo video:** [3-minute walkthrough](https://northeastern-my.sharepoint.com/:v:/g/personal/ncube_g_northeastern_edu/IQArDuYgDG1RSIMQ-D2rck63AUm7f6H0JGNknDinUl_gdfc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Zcysej)
+
 Two questions about one service system, answered from City of Boston 311 records.
 
 **Intake.** A resident writes a message in plain language. Which of Boston's own
@@ -319,7 +321,7 @@ the working AI application built with prompting, structured output, RAG and
 LangGraph to route natural-language resident complaints into the city's request
 types and queues.
 
-An AI assistant was used for code review, syntax drafting and grammatical polish
+An Claude AI assistant was used for code review, syntax drafting and grammatical polish
 of the written observations.
 
 **Data integrity and ground truth.** Every quantitative figure in the notebook
